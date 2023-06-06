@@ -1,4 +1,4 @@
-const Bcrypt = require("bcrypt");
+// const Bcrypt = require("bcrypt");
 // start autentikasi
 const users = {
   john: {
