@@ -2,7 +2,6 @@
 const Hapi = require("@hapi/hapi");
 const userRoutes = require("./src/routes/userRoutes");
 const validateUser = require("./src/controllers/authController");
-const Bcrypt = require("bcrypt");
 const Jwt = require("jsonwebtoken");
 
 const server = Hapi.server({
