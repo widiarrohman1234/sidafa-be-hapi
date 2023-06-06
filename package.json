@@ -1,0 +1,25 @@
+{
+  "name": "sidafa-be-hapi",
+  "version": "1.0.0",
+  "description": "Aplikasi Back-end SIDAFA untuk Android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Widi Arrohman",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/basic": "^7.0.1",
+    "@hapi/boom": "^10.0.1",
+    "@hapi/cookie": "^12.0.1",
+    "@hapi/hapi": "^21.3.2",
+    "bcrypt": "^5.1.0",
+    "hapi-auth-basic": "^5.0.0",
+    "hapi-auth-jwt2": "^10.4.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
