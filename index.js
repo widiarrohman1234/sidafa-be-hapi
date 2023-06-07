@@ -47,18 +47,15 @@ const init = async () => {
   // server.auth.strategy("simple", "basic", { validate: basicValidation });
 
   // Tambahkan rute atau pengaturan server lainnya disini
-  // server.route({
-  //   method: "GET",
-  //   path: "/",
-  //   config: {
-  //     auth: "simple",
-  //   },
-  //   handler: (request, h) => {
-  //     // return "Mangat yah...s";
-  //     console.log("/ success");
-  //     return `<a href="/hai">klik ini</a>`;
-  //   },
-  // });
+  server.route({
+    method: "GET",
+    path: "/helo",
+    handler: (request, h) => {
+      return "Hurraaa.... berhasil";
+      // console.log("/ success");
+      // return `<a href="/hai">klik ini</a>`;
+    },
+  });
 
   // server.route({
   //   method: "GET",
